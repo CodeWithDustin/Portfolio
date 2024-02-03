@@ -1,6 +1,7 @@
 /* ----------- Generic Page Styling ------------- */
 
 * {
+  border: 1px red dashed;
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
@@ -393,6 +394,12 @@ body {
 }
 
 @media only screen and (max-width: 475px) {
+
+  #header {
+    height: 70vh;
+  }
+
+
   #about {
     padding-top: 0;
   }
