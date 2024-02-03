@@ -296,6 +296,58 @@ body {
 }
 
 /* ---------------- Media Querys ------------------- */
+@media only screen and (max-width: 992px) {
+  #about {
+    margin-top: 75px;
+  }
+
+  .project_image p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #about {
+    margin-top: 100px;
+  }
+
+  .project_list {
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  }
+
+  .project_image h3 {
+    font-size: 12px;
+  }
+
+  .project_image p {
+    font-size: 10px;
+  }
+
+  .project_image a {
+    margin-top: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    color: #66fcf1;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 27px;
+    background: #0b0c10;
+  }
+
+  .col_left {
+    font-size: 15px;
+  }
+
+  .col_right {
+    font-size: 25px;
+  }
+
+  .goToTopBtn {
+    font-size: 25px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   #header_text {
@@ -303,7 +355,7 @@ body {
   }
 
   #about {
-    padding-top: 125px;
+    padding-top: 25px;
   }
 
   .project_list {
@@ -340,16 +392,20 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 475px) {
   #about {
-    padding-top: 100px;
+    padding-top: 75px;
+  }
+
+  .about_titles {
+    font-size: 25px;
   }
 
   .project_list {
-    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
   }
 
-  .project_image {
+  .project_image h3 {
     font-size: 12px;
   }
 
@@ -367,40 +423,19 @@ body {
   }
 
   .project_image p {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .col_left {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .col_right {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .goToTopBtn {
     font-size: 25px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #about {
-    margin-top: 75px;
-  }
-
-  .project_image p {
-    font-size: 10px;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-
-  #about {
-    margin-top: 75px;
-  }
-
-  .project_image p {
-    font-size: 15px;
   }
 }
 
