@@ -395,11 +395,11 @@ body {
 
 @media only screen and (max-width: 475px) {
   #header {
-    height: 70vh;
+    height: 80vh;
   }
 
   #about {
-    padding-top: 15px;
+    padding-top: 25px;
   }
 
   .about_titles {
